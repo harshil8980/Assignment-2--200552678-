@@ -1,0 +1,75 @@
+<!-- valid doctype -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- all required metadata -->
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Home Page">
+  <title>Let's Oreder Pizza assignment-2</title>
+  <meta name="robots" content="noindex, nofollow">
+  <!-- the link the stylesheet that is used in this site -->
+  <link rel="stylesheet" href="style/style.css">
+  <!-- the link of the javascript -->
+  <script src="js/jqery.js"></script>
+</head>
+<body>
+    <header id="header">
+        <img src="images/logo.jpg" alt="logo image">
+        <h1>Pizza Restaurant</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="order.html">Orders</a>
+        </nav>
+    </header>
+    <section class="pizza-section">
+      <div class="container">
+        <h2>Build Your Pizza</h2>
+        <div class="pizza-options">
+          <!-- Options for selecting pizza size -->
+          <div class="option">
+            <label for="size">Size:</label>
+            <select id="size">
+              <option value="small">Small</option>
+              <option value="medium">Medium</option>
+              <option value="large">Large</option>
+            </select>
+          </div>
+          <!-- Options for selecting pizzas -->
+          <div class="option">
+            <label for="crust">Select the pizza</label>
+            <select id="crust">
+              <option value="The veggie delight">The veggie delight</option>
+              <option value="The peperoni and salami special">The peperoni and salami special</option>
+              <option value="The chicken ranch pizza">The chicken ranch pizza</option>
+              <option value="The mozzrelabella">The mozzrelabella</option>
+              <option value="The pizziolla pizza">The pizziolla pizza</option>
+            </select>
+          </div>
+          <!-- Options for selecting pizza sauces -->
+          <div class="option">
+            <label for="sauce">Select the sauces</label>
+            <select id="sauce">
+              <option value="chipotle">chipotle</option>
+              <option value="Ranch">Ranch</option>
+              <option value="Tsweet onion teryaki">sweet onion teryaki</option>
+              <option value="THouse sauce">House sauce</option>
+              <option value="pizza sauce">pizza sauce</option>
+            </select>
+          </div>
+          <!-- Options for payment method -->
+          <div class="option">
+            <label for="Payment">Select the Payment method</label>
+            <select id="Payment">
+              <option value="Cash on delivery">Cash on delivery</option>
+            </select>
+          </div>
+          <!-- Button to place the order -->
+          <button id="order-btn">Place Order</button>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Section for payment -->
+  </body>
+  </html>
