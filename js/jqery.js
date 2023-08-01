@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
     {
       price=12.99;
     }
-      alert("Order Placed Successfully (:\n Size: "+size+"\n Type of pizza: "+crust+"\n Name of the sauce: "+sauce+"\n Price is: $"+price);
+      alert("Order Placed Successfully (:\n Size: "+size+"\n Type of pizza: "+crust+"\n Name of the sauce: "+sauce+"\n Price is: "+price);
    
     // Check if a sauce is selected
   });
